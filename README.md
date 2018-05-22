@@ -1,5 +1,5 @@
 
-#MQTT PoC using Mosca.js
+# MQTT PoC using Mosca.js
 
 MQTT is a machine-to-machine (M2M)/"Internet of Things" connectivity protocol. 
 
@@ -14,11 +14,13 @@ MQTT messaging protocol:
 ## Prerequisites
 
 - Install Mosca globally: `npm install mosca pino -g`
-- Install Client dependencies: `npm insstall`
+- Install Client dependencies: `npm install`
+
 
 ## Run unauthorized Mosca broker
 
 Run `mosca -v | pino`
+
 
 ## Mosca Authorization & Authentication
 
@@ -28,9 +30,11 @@ Run the broker with: `mosca -v --credentials ./credentials.json | pino`
 
 Run the client with environment variables  for `username` and `password`.
 
+
 ## Run Client
 
 Run the client with `node index.js`, setting environment variables if needed for Mosca authentication.
+
 
 ## Extra details..
 
