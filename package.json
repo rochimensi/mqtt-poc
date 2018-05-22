@@ -1,0 +1,15 @@
+{
+  "name": "mosca-practica-MQTT",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rosario Mensi",
+  "license": "ISC",
+  "dependencies": {
+    "mqtt": "^2.18.0",
+    "prompt": "^1.0.0"
+  }
+}
